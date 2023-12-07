@@ -10,7 +10,7 @@ public class RechteckController {
     protected void BerechnenButtonClick() {
         rechteck.getArea();
     }
-    
+    du
     protected void ExitScene(){
         rechteck.Exit();
     }
