@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.rechteck.RechteckController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rechteck.RechteckController">
+   <children>
+      <Button fx:id="berechnen" layoutX="407.0" layoutY="106.0" mnemonicParsing="false" onAction="#BerechnenButtonClick" text="Berechnen" />
+      <Button fx:id="beenden" layoutX="412.0" layoutY="217.0" mnemonicParsing="false" onAction="#BerechnenButtonClick" text="Beenden" />
+      <Label layoutX="72.0" layoutY="111.0" text="Breite des Rechtecks" />
+      <Label layoutX="73.0" layoutY="171.0" text="Höhe des Rechtecks" />
+      <Label layoutX="81.0" layoutY="229.0" text="Ausgabe(Fläche)" />
+      <TextField fx:id="widthTextField" layoutX="212.0" layoutY="106.0" />
+      <TextField fx:id="heightTextField" layoutX="212.0" layoutY="167.0" />
+      <TextField fx:id="ausgabeTextField" layoutX="210.0" layoutY="223.0" />
+   </children>
+</AnchorPane>

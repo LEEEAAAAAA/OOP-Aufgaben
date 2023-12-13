@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Rechteck/Rechteck.iml" filepath="$PROJECT_DIR$/Rechteck/Rechteck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reisedauer zum Mond/Reisedauer zum Mond.iml" filepath="$PROJECT_DIR$/Reisedauer zum Mond/Reisedauer zum Mond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wurfel/Wurfel.iml" filepath="$PROJECT_DIR$/Wurfel/Wurfel.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-aufgaben.iml" filepath="$PROJECT_DIR$/oop-aufgaben.iml" />
     </modules>
   </component>

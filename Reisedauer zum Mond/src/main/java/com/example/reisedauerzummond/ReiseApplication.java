@@ -1,4 +1,4 @@
-package com.example.rechteck;
+package com.example.reisedauerzummond;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,18 +7,17 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class RechteckApplication extends Application {
+public class ReiseApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(RechteckApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(ReiseApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("!");
+        stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
     }
 
     public static void main(String[] args) {
         launch();
-
     }
 }

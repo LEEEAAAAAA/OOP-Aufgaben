@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Rechteck" />
+        <module name="Wurfel" />
+        <module name="Reisedauer zum Mond" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Rechteck" target="17" />
+      <module name="Reisedauer zum Mond" target="17" />
+      <module name="Wurfel" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
