@@ -8,7 +8,7 @@ public class WurfelController {
     @FXML
      TextField Rollingdice;
     @FXML
-     TextField LetzterWurf;
+    TextField LetzterWurf;
     @FXML
     protected void Roll() {
         String wurf = String.valueOf(w.werfen());

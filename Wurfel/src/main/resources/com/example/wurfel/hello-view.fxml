@@ -14,7 +14,11 @@
          </font>
       </Button>
       <Label layoutX="65.0" layoutY="311.0" text="Letzter Wurf:" />
-      <TextField fx:id="LetzterWurf" layoutX="158.0" layoutY="272.0" opacity="0.0" prefHeight="112.0" prefWidth="160.0" />
-      <TextField fx:id="Rollingdice" layoutX="417.0" layoutY="64.0" opacity="0.0" prefHeight="112.0" prefWidth="160.0" />
+      <TextField fx:id="LetzterWurf" layoutX="148.0" layoutY="307.0" prefHeight="26.0" prefWidth="36.0" />
+      <TextField fx:id="Rollingdice" layoutX="410.0" layoutY="71.0" prefHeight="98.0" prefWidth="127.0">
+         <font>
+            <Font name="System Bold" size="51.0" />
+         </font>
+      </TextField>
    </children>
 </AnchorPane>

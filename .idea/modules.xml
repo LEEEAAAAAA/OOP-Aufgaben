@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Auto/Auto.iml" filepath="$PROJECT_DIR$/Auto/Auto.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rechteck/Rechteck.iml" filepath="$PROJECT_DIR$/Rechteck/Rechteck.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reisedauer zum Mond/Reisedauer zum Mond.iml" filepath="$PROJECT_DIR$/Reisedauer zum Mond/Reisedauer zum Mond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tannenbaum/Tannenbaum.iml" filepath="$PROJECT_DIR$/Tannenbaum/Tannenbaum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Warenkorb/Warenkorb.iml" filepath="$PROJECT_DIR$/Warenkorb/Warenkorb.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wurfel/Wurfel.iml" filepath="$PROJECT_DIR$/Wurfel/Wurfel.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-aufgaben.iml" filepath="$PROJECT_DIR$/oop-aufgaben.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

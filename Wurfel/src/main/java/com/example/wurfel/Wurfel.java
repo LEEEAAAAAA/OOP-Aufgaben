@@ -2,10 +2,8 @@ package com.example.wurfel;
 
 import java.util.Random;
 
-public class Wurfel
-
-{
-    int aktuellerWurf;
+public class Wurfel {
+    private int aktuellerWurf;
     private int letzerWurf;
 
     public int werfen() {

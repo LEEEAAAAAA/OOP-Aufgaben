@@ -6,14 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Rechteck" />
+        <module name="Auto" />
         <module name="Wurfel" />
         <module name="Reisedauer zum Mond" />
+        <module name="Rechteck" />
+        <module name="Tannenbaum" />
+        <module name="Warenkorb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Auto" target="17" />
       <module name="Rechteck" target="17" />
       <module name="Reisedauer zum Mond" target="17" />
+      <module name="Tannenbaum" target="17" />
+      <module name="Warenkorb" target="17" />
       <module name="Wurfel" target="17" />
     </bytecodeTargetLevel>
   </component>
